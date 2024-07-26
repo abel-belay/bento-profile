@@ -1,12 +1,13 @@
 import Card from "../components/Card";
 import ResumePng from "../assets/resume.png";
+import ArrowIcon from "../assets/ArrowIcon";
 
 const Now = () => {
   return (
-    <Card className="gw-4 sm:gw-1 gh-2 flex flex-column">
-      <div className="flex justify-content-between">
+    <Card className="gw-4 sm:gw-1 gh-2 flex flex-column cursor-pointer">
+      <div className="flex justify-content-between align-items-start">
         <span className="card-header">My CV</span>
-        <span>{"->"}</span>
+        <ArrowIcon />
       </div>
       <div
         className="w-full h-full mt-3"

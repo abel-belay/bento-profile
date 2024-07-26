@@ -11,6 +11,16 @@
 .card:hover {
   border: 1px solid #e63946;
   transition: border 0.2s;
+  & svg {
+    fill: #e63946;
+    transition: fill 0.2s;
+  }
+}
+
+.card svg {
+  width: 0.5rem;
+  margin-top: 0.4rem;
+  fill: #ffffff;
 }
 
 /* Base grid column classes */
