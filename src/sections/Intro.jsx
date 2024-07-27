@@ -5,7 +5,7 @@ import GithubPng from "../assets/github-mark-white.png";
 const Intro = () => {
   return (
     <Card className="flex gw-4 lg:gw-3 gh-4 lg:gh-4">
-      <div className="w-full flex flex-column ">
+      <div className="w-full flex flex-col ">
         <p>welcome</p>
         <p>
           Hi, I'm <b>Abel Belay</b>, a software developer with strong focus on

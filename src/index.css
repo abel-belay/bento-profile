@@ -61,6 +61,12 @@ h6 {
   isolation: isolate;
 }
 
+/* End of CSS Reset */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Import Satoshi font */
 @font-face {
   font-family: "Satoshi";

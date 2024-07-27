@@ -4,8 +4,8 @@ import ArrowIcon from "../assets/ArrowIcon";
 
 const Now = () => {
   return (
-    <Card className="gw-4 sm:gw-1 gh-2 flex flex-column cursor-pointer">
-      <div className="flex justify-content-between align-items-start">
+    <Card className="gw-4 sm:gw-1 gh-2 flex flex-col cursor-pointer">
+      <div className="flex justify-between items-start">
         <span className="card-header">My CV</span>
         <ArrowIcon />
       </div>
